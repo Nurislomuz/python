@@ -1,3 +1,16 @@
+#Task: Electricity Bill Calculator
+#Write a Python program using Object-Oriented Programming (OOP) to calculate a customer's 
+#electricity bill based on the number of units consumed.
+
+#Your program should:
+#Create a class named Customer.
+#Include a method get_info() to accept the customer's name, ID, 
+# and the number of consumed units via user input.
+#Include a method calculate_bill() to compute the total bill based on specific pricing tiers 
+# (e.g., rate for the first 100 units, rate for units above 100, and rate for units above 200).
+#Include a method display_bill() to print the customer's name, ID, total consumed units, 
+# and the final calculated bill amount formatted with a dollar sign.
+
 class Customer:
     def get_info(self):
         self.customer_name = input('Enter customer name: ').strip()
